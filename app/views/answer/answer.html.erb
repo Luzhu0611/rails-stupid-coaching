@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="answer.scss">
+</head>
+<body>
+
+<div id="urquestion">
+  <h3>"<%=@ask%>"</h3>
+  <p> - You asked</p>
+</div>
+
+<div id ="hisanswer">
+  <h3>"<%=@answer%>"</h3>
+  <p> - Your coach answers</p>
+</div>
+
+<%= link_to "Ask again!", answer_ask_path%>
+
+</body>
+</html>
